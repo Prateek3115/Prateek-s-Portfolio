@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prateek Singh - Portfolio</title>
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- data-bs-spy for scrollspy functionality -->
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+    tabindex="0">
+
+    <!-- Navbar Section -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" style="letter-spacing: 1px;" href="#hero">Prateek's <span
+                    class="text-accent">Portfolio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section d-flex align-items-center">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-7 mt-5 mt-md-0">
+                    <h5 class="text-accent fw-medium mb-2" data-aos="fade-up">Hello, I'm</h5>
+                    <h1 class="display-3 fw-bold mb-3" data-aos="fade-up" data-aos-delay="100">Prateek Singh</h1>
+                    <h3 class="h4 text-muted mb-4" data-aos="fade-up" data-aos-delay="150">Software Developer | Backend
+                        Enthusiast | AI & DS Learner</h3>
+                    <p class="lead mb-5 hero-text" data-aos="fade-up" data-aos-delay="200">I build efficient and
+                        scalable applications with a creative and
+                        tech-driven approach.</p>
+                    <div class="d-flex gap-3 justify-content-center justify-content-md-start" data-aos="fade-up"
+                        data-aos-delay="250">
+                        <a href="#projects" class="btn btn-primary btn-lg rounded-pill px-4 shadow-sm">View Projects</a>
+                        <a href="Prateek_Singh_Resume.pdf" target="_blank"
+                            class="btn btn-outline-light btn-lg rounded-pill px-4 shadow-sm">Download CV</a>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center mb-4 mb-md-0" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="profile-placeholder mx-auto shadow-lg d-flex align-items-center justify-content-center overflow-hidden"
+                        style="border: 3px solid var(--accent-color);">
+                        <img src="profile.jpg" alt="Prateek Singh" class="img-fluid w-100 h-100"
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="about-card p-4 p-md-5 shadow-sm rounded-4">
+                        <p class="mb-4">I am a passionate software developer with a strong interest in backend
+                            development and problem-solving. I enjoy working with technologies like Java, Python, and
+                            modern frameworks to build efficient and scalable applications.</p>
+                        <p class="mb-0">With a growing foundation in Data Structures, OOP, and AI/DS, I am continuously
+                            learning and adapting to new technologies. I bring a creative and tech-driven approach to
+                            development, along with a chill and collaborative personality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-alt">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Technical & Soft Skills</h2>
+            <div class="row g-4">
+
+                <!-- Core Development -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card h-100 p-4 shadow-sm rounded-4 text-center">
+                        <div class="icon-wrapper mb-3 mx-auto">
+                            <i class="bi bi-code-slash fs-3"></i>
+                        </div>
+                        <h4 class="h5 mb-3">Development</h4>
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <span class="badge bg-skill">Web Development</span>
+                            <span class="badge bg-skill">Software Dev</span>
+                            <span class="badge bg-skill">Java</span>
+                            <span class="badge bg-skill">Python</span>
+                            <span class="badge bg-skill">C / C++</span>
+                            <span class="badge bg-skill">Backend (Node.js)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI & Libraries -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card h-100 p-4 shadow-sm rounded-4 text-center">
+                        <div class="icon-wrapper mb-3 mx-auto">
+                            <i class="bi bi-robot fs-3"></i>
+                        </div>
+                        <h4 class="h5 mb-3">AI & Libraries</h4>
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <span class="badge bg-skill">Agentic AI</span>
+                            <span class="badge bg-skill">MCP Servers</span>
+                            <span class="badge bg-skill">Pandas</span>
+                            <span class="badge bg-skill">NumPy</span>
+                            <span class="badge bg-skill">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Tools -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card h-100 p-4 shadow-sm rounded-4 text-center">
+                        <div class="icon-wrapper mb-3 mx-auto">
+                            <i class="bi bi-tools fs-3"></i>
+                        </div>
+                        <h4 class="h5 mb-3">AI Tools</h4>
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <span class="badge bg-skill">Notebook LM</span>
+                            <span class="badge bg-skill">Gamma AI</span>
+                            <span class="badge bg-skill">Claude AI</span>
+                            <span class="badge bg-skill">ChatGPT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card h-100 p-4 shadow-sm rounded-4 text-center">
+                        <div class="icon-wrapper mb-3 mx-auto">
+                            <i class="bi bi-people fs-3"></i>
+                        </div>
+                        <h4 class="h5 mb-3">Soft Skills</h4>
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <span class="badge bg-skill">Problem Solving</span>
+                            <span class="badge bg-skill">Adaptability</span>
+                            <span class="badge bg-skill">Communication</span>
+                            <span class="badge bg-skill">Team Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Projects</h2>
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card project-card h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="h4 card-title fw-bold text-accent mb-3">SAZA's</h3>
+                            <p class="card-text text-muted flex-grow-1">Its a system which provide conectivity to all
+                                criminal justice organizations of india and provide the criminal record of india of
+                                every organization and it support every case hearing info by judge and FIR support of
+                                organizations for frequent actions by police to grab the criminal
+                                .</p>
+                            <div class="mt-3">
+                                <span class="badge bg-tech me-1">Python</span>
+                                <span class="badge bg-tech me-1">Java</span>
+                                <span class="badge bg-tech">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card project-card h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="h4 card-title fw-bold text-accent mb-3">Mathematical Chatbot</h3>
+                            <p class="card-text text-muted flex-grow-1">A chatbot capable of solving mathematical
+                                queries and assisting users with calculations and logic-based problems.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-tech me-1">Python</span>
+                                <span class="badge bg-tech me-1">AI Tools</span>
+                                <span class="badge bg-tech">Datasets</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="card project-card h-100 shadow-sm border-0 rounded-4">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="h4 card-title fw-bold text-accent mb-3">OmniAgent</h3>
+                            <p class="card-text text-muted flex-grow-1">A multi-functional intelligent agent designed to
+                                automate tasks and integrate multiple functionalities in one system, featuring deep
+                                Agentic AI integration for seamless operations.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-tech me-1">Python</span>
+                                <span class="badge bg-tech me-1">Node.js</span>
+                                <span class="badge bg-tech">AI Tools</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="section-padding bg-alt">
+        <div class="container">
+            <div class="row g-5">
+
+                <!-- Experience -->
+                <div class="col-lg-6" id="experience">
+                    <h2 class="section-title mb-5">Experience</h2>
+                    <div class="timeline-item p-4 shadow-sm rounded-4 mb-4">
+                        <h4 class="h5 fw-bold text-accent mb-1">Intern</h4>
+                        <h5 class="h6 mb-3 text-main">Parabit Technology Pvt. Ltd.</h5>
+                        <ul class="text-muted mb-0 ps-3">
+                            <li class="mb-2">Worked on real-world software solutions</li>
+                            <li class="mb-2">Gained practical exposure to development workflows</li>
+                            <li>Contributed to backend and system-level tasks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="col-lg-6" id="education">
+                    <h2 class="section-title mb-5">Education</h2>
+                    <div class="timeline-item p-4 shadow-sm rounded-4 mb-4">
+                        <h4 class="h5 fw-bold text-accent mb-1">B.Tech – Computer Science Engineering (AI & DS)</h4>
+                        <h5 class="h6 text-muted mb-0">Sagar Institute of Science and Technology (Affiliated to RGPV)
+                        </h5>
+                    </div>
+                    <div class="timeline-item p-4 shadow-sm rounded-4">
+                        <h4 class="h5 fw-bold text-accent mb-1">High School</h4>
+                        <h5 class="h6 text-muted mb-2">Hema Higher Secondary School, Bhopal</h5>
+                        <span class="badge bg-secondary">Passed in 2022</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding text-center">
+        <div class="container">
+            <h2 class="section-title mb-4">Get In Touch</h2>
+            <p class="text-muted mb-5 max-w-2xl mx-auto">I'm currently open to new opportunities. Whether you have a
+                question or just want to connect, feel free to reach out!</p>
+
+            <div class="d-flex justify-content-center gap-4 flex-wrap mb-5">
+                <!-- Email -->
+                <a href="mailto:prateek03112005@gmail.com"
+                    class="contact-link d-flex flex-column align-items-center text-decoration-none">
+                    <div
+                        class="contact-icon rounded-circle d-flex align-items-center justify-content-center shadow-sm mb-3">
+                        <i class="bi bi-envelope-fill fs-4"></i>
+                    </div>
+                    <span class="fw-medium text-main">Email</span>
+                </a>
+
+                <!-- Phone -->
+                <a href="tel:+919406684843"
+                    class="contact-link d-flex flex-column align-items-center text-decoration-none">
+                    <div
+                        class="contact-icon rounded-circle d-flex align-items-center justify-content-center shadow-sm mb-3">
+                        <i class="bi bi-telephone-fill fs-4"></i>
+                    </div>
+                    <span class="fw-medium text-main">+91 9406684843</span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/prateek-singh-4298502a9" target="_blank" rel="noopener noreferrer"
+                    class="contact-link d-flex flex-column align-items-center text-decoration-none">
+                    <div
+                        class="contact-icon rounded-circle d-flex align-items-center justify-content-center shadow-sm mb-3">
+                        <i class="bi bi-linkedin fs-4"></i>
+                    </div>
+                    <span class="fw-medium text-main">LinkedIn</span>
+                </a>
+
+                <!-- GitHub (Placeholder) -->
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                    class="contact-link d-flex flex-column align-items-center text-decoration-none">
+                    <div
+                        class="contact-icon rounded-circle d-flex align-items-center justify-content-center shadow-sm mb-3">
+                        <i class="bi bi-github fs-4"></i>
+                    </div>
+                    <span class="fw-medium text-main">GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center border-top border-secondary opacity-75 mt-auto">
+        <div class="container">
+            <p class="mb-0 text-muted small">&copy; 2026 Prateek Singh.< </div>
+    </footer>
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS for interactions -->
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100,
+        });
+
+        // Add solid background to navbar on scroll
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('mainNavbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
