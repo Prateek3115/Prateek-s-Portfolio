@@ -12,7 +12,7 @@
 
 /* Base Styles */
 body {
-    background-color: var(--bg-color);
+    background-color: transparent;
     color: var(--text-main);
     font-family: 'Poppins', system-ui, -apple-system, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -38,7 +38,19 @@ body {
     padding: 100px 0;
 }
 .bg-alt {
-    background-color: var(--bg-alt);
+    background-color: rgba(22, 32, 50, 0.7);
+    backdrop-filter: blur(4px);
+}
+
+#starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
 }
 .section-title {
     font-weight: 700;
